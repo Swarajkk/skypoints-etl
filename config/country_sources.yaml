@@ -1,0 +1,37 @@
+IND:
+  sheet: in
+  id_prefix: "IND-"
+  compact_fmt: null
+  dob_out: "%d%m%Y"
+  columns:
+    ID: member_id
+    Name: member_name
+    DOB: dob
+    TierCode: tier_code
+    EnrollmentDate: enrollment_date
+    "Flight Date": last_flight_date
+
+USA:
+  sheet: in
+  id_prefix: "USA-"
+  compact_fmt: "%m%d%Y"
+  dob_out: "%m%d%Y"
+  columns:
+    ID: member_id
+    Name: member_name
+    TierCode: tier_code
+    EnrollmentDate: enrollment_date
+    FlightDate: last_flight_date
+
+AUS:
+  sheet: Sheet1
+  id_prefix: "AUS-"
+  compact_fmt: null
+  dob_out: "%d%m%Y"
+  columns:
+    "Unique ID": member_id
+    "Member Name": member_name
+    "Tier Type": tier_code
+    "Date of Birth": dob
+    "Date of Enrollment": enrollment_date
+    "Date of Flight": last_flight_date
