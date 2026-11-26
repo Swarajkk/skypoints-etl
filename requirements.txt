@@ -1,4 +1,6 @@
-pandas
-openpyxl
-pyyaml
-pytest
+# Python dependencies for the Excel -> canonical flat-file normalizer and its tests.
+# Developed and run on Python 3.12; 3.10+ should work.
+pandas>=2.0
+openpyxl>=3.1
+pyyaml>=6.0
+pytest>=7.0
